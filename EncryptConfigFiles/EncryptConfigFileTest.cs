@@ -42,7 +42,7 @@ namespace EncryptConfigFiles
 			doc = LoadXmlDocument(confilePath);
 			doc.CheckNodeInnerXmlStartWith("/configuration/connectionStrings", "<add name=");
 			doc.CheckNodeHasAttribute("/configuration/system.web/machineKey", "validationKey");
-			FreeFile();
+			FreeFile(out doc);
 
 			//Configuration webConfig = GetWebConfig("C:\inetpub\wwwroot\GenerativeObjectsApplications\Sandbox");
 			//var config = GetConfigFromPath(@"C:\inetpub\wwwroot\GenerativeObjectsApplications\Sandbox\Web.config");
@@ -55,7 +55,7 @@ namespace EncryptConfigFiles
 			doc = LoadXmlDocument(confilePath);
 			doc.CheckNodeInnerXmlStartWith("/configuration/connectionStrings", "<EncryptedData ");
 			doc.CheckNodeInnerXmlStartWith("/configuration/system.web/machineKey", "<EncryptedData ");
-			FreeFile();
+			FreeFile(out doc);
 
 			UnProtectSection("system.web/machineKey", config);
 			UnProtectSection("connectionStrings", config);
@@ -73,7 +73,7 @@ namespace EncryptConfigFiles
 
 			doc = LoadXmlDocument(confilePath);
 			doc.CheckNodeInnerXmlStartWith("/configuration/connectionStrings", "<EncryptedData ");
-			FreeFile();
+			FreeFile(out doc);
 
 			var config = GetConfigFromPath(confilePath);
 
@@ -85,15 +85,13 @@ namespace EncryptConfigFiles
 
 		private static XmlDocument LoadXmlDocument(string confilePath)
 		{
-			XmlDocument doc;
-			doc = new XmlDocument();
+			XmlDocument doc = new XmlDocument();
 			doc.Load(confilePath);
 			return doc;
 		}
 
-		private static void FreeFile()
+		private static void FreeFile(out XmlDocument doc)
 		{
-			XmlDocument doc;
 			doc = null;
 			GC.Collect();
 			GC.WaitForPendingFinalizers();

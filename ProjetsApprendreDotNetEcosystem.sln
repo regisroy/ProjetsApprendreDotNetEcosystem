@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptConfigFiles", "EncryptConfigFiles\EncryptConfigFiles.csproj", "{36775100-68A7-4378-81E1-6223779F97EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml", "Xml\Xml.csproj", "{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{36775100-68A7-4378-81E1-6223779F97EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36775100-68A7-4378-81E1-6223779F97EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36775100-68A7-4378-81E1-6223779F97EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
