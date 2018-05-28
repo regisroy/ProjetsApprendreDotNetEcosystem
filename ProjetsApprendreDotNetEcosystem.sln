@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptConfigFiles", "Encry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml", "Xml\Xml.csproj", "{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProject", "SpecFlowProject\SpecFlowProject.csproj", "{02FEB184-E763-42DE-B935-DD29DDCDFD5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteAlone", "SqliteAlone\SqliteAlone.csproj", "{82B6749D-34F2-4305-9AF5-162ECD41A98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D8FCD8-E010-48B2-9A55-0BB2ADF29E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FEB184-E763-42DE-B935-DD29DDCDFD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FEB184-E763-42DE-B935-DD29DDCDFD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FEB184-E763-42DE-B935-DD29DDCDFD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FEB184-E763-42DE-B935-DD29DDCDFD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
