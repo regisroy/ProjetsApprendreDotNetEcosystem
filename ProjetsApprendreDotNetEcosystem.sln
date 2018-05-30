@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProject", "SpecFlow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteAlone", "SqliteAlone\SqliteAlone.csproj", "{82B6749D-34F2-4305-9AF5-162ECD41A98A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompileCodeProgrammatically", "CompileCodeProgrammatically\CompileCodeProgrammatically.csproj", "{FD39AE5D-21F9-4A6D-AAF4-10EBDF655DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B6749D-34F2-4305-9AF5-162ECD41A98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD39AE5D-21F9-4A6D-AAF4-10EBDF655DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD39AE5D-21F9-4A6D-AAF4-10EBDF655DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD39AE5D-21F9-4A6D-AAF4-10EBDF655DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD39AE5D-21F9-4A6D-AAF4-10EBDF655DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
